@@ -59,7 +59,7 @@ Load: Load the transformed data into a directory named Gold. Also, confirm that 
 
 **ETL Script**:[`etl_scripts.sh`](./etl/scripts/etl_scripts.sh)
 
-![execution_screenshot1](./etl/docs/execution screenshot1.png)
+![execution_screenshot1](./etl/docs/execution_screenshot1.png)
 
 ## Task 2
 Your manager has asked you to schedule the script to run daily using cron jobs. Schedule the script to run every day at 12:00 AM.
