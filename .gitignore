@@ -1,0 +1,11 @@
+# Ignore all database.conf files
+database.conf
+**/database.conf
+
+# Ignore all CSV files
+*.csv
+**/*.csv
+
+# Ignore all JSON files
+*.json
+**/*.json
