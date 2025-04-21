@@ -51,7 +51,7 @@ Your manager has assigned you the task of building a Bash script (use only bash 
 
 **Load**: Load the transformed data into a directory named Gold. Also, confirm that the file has been saved into the folder.
 
-### *Note: Use environment variables for the URL, and call it in your script. Write a well-detailed script, add sufficient comments to the script, and print out information for each step*.
+##### *Note: Use environment variables for the URL, and call it in your script. Write a well-detailed script, add sufficient comments to the script, and print out information for each step*.
 
 ### Solution 
 
