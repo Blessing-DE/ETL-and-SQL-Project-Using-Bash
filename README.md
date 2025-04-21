@@ -27,14 +27,14 @@ The primary aim of the project is to demonstrate proficiency in creating ETL pip
 ## Key terms, concepts and tools
 Let’s take a look at some of the tools and terminologies that we used while working on this project.
 
-* ETL (Extract, Transform, Load): ETL refers to the process of extracting data from various sources, transforming it into a suitable format, and loading it into a data warehouse or database. This process is crucial for integrating data from disparate sources into a unified system for analysis and reporting.
+* **ETL(Extract, Transform, Load)**: ETL refers to the process of extracting data from various sources, transforming it into a suitable format, and loading it into a data warehouse or database. This process is crucial for integrating data from disparate sources into a unified system for analysis and reporting.
 
-* Bash: Bash (Bourne Again Shell) is a Unix shell and command language used for scripting. It allows users to automate repetitive tasks, such as data extraction and transformation, by writing scripts that execute a series of commands.
+* **Bash: Bash (Bourne Again Shell)** is a Unix shell and command language used for scripting. It allows users to automate repetitive tasks, such as data extraction and transformation, by writing scripts that execute a series of commands.
 
-* SQL (Structured Query Language): SQL is a standard language used for querying and managing relational databases. It enables users to perform operations such as querying, updating, and managing data within a database.
-* Git: Git is a distributed version control system that tracks changes to files and facilitates collaboration among developers. It allows for branching, merging, and maintaining a history of changes to the project.
+* **SQL (Structured Query Language)**: SQL is a standard language used for querying and managing relational databases. It enables users to perform operations such as querying, updating, and managing data within a database.
+* **Git**: Git is a distributed version control system that tracks changes to files and facilitates collaboration among developers. It allows for branching, merging, and maintaining a history of changes to the project.
 
-* GitHub: GitHub is a web-based platform for version control and collaboration, built on top of Git. It provides a repository hosting service where users can share and collaborate on code, track issues, and review changes.
+* **GitHub**: GitHub is a web-based platform for version control and collaboration, built on top of Git. It provides a repository hosting service where users can share and collaborate on code, track issues, and review changes.
 
 This project not only enhances practical skills in data engineering but also emphasizes best practices in version control and documentation, making it a valuable addition to any data professional's portfolio.
 
@@ -45,11 +45,11 @@ You have been hired as a new Data Engineer at a CDE. The CDE infrastructure is b
 
 Your manager has assigned you the task of building a Bash script (use only bash scripting) that performs a simple ETL process:
 
-Extract: Download a CSV file. You can access the CSV using this link. Save it into a folder called raw. Your script should confirm that the file has been saved into the raw folder.
+**Extract**: Download a CSV file. You can access the CSV using this link. Save it into a folder called raw. Your script should confirm that the file has been saved into the raw folder.
 
-Transform: After downloading the file, perform a simple transformation by renaming the column named Variable_code to variable_code. Then, select only the following columns: year, Value, Units, variable_code. Save the content of these selected columns into a file named 2023_year_finance.csv. This file should be saved in a folder called Transformed, your Bash script should confirm that it was loaded into the folder.
+**Transform**: After downloading the file, perform a simple transformation by renaming the column named Variable_code to variable_code. Then, select only the following columns: year, Value, Units, variable_code. Save the content of these selected columns into a file named 2023_year_finance.csv. This file should be saved in a folder called Transformed, your Bash script should confirm that it was loaded into the folder.
 
-Load: Load the transformed data into a directory named Gold. Also, confirm that the file has been saved into the folder.
+**Load**: Load the transformed data into a directory named Gold. Also, confirm that the file has been saved into the folder.
 
 ### *Note: Use environment variables for the URL, and call it in your script. Write a well-detailed script, add sufficient comments to the script, and print out information for each step*.
 
@@ -144,4 +144,5 @@ RIGHT JOIN accounts AS acct
 	ON acct.sales_rep_id = s_rep.id
 ORDER BY account_name
 ```
+
 
