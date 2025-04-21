@@ -80,7 +80,7 @@ Below is a simulated example of a cron schedule that would run the ETL script da
 ```
 
 
-## Task 3
+## Task 3
 Write a Bash script to move all CSV and JSON files from one folder to another folder named json_and_CSV. Use any Json and CSV of your choice, the script should be able to work with one or more Json and CSV files.
 
 ### Solution
